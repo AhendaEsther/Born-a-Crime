@@ -9,7 +9,7 @@ color: black;
 }
 .books{
 
-background-image: url(Pictures/book.avif);
+background-image: url(Images/book.avif);
 background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
@@ -55,7 +55,7 @@ h4{
     width: 15vw;
 }
 .text{
-    background-image: url(Pictures/tn2.jpeg);
+    background-image: url(Images/tn2.jpeg);
     background-size: 20%;
     height: 700vh;
     background-repeat: no-repeat;
