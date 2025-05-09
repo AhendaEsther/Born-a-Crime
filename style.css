@@ -2,8 +2,32 @@
 font-size: 1vw;
 margin: 0 25%;
 width: 50%;
+height: 25cm;
+background-color: rgb(159, 143, 184);
+text-decoration: none;
+color: black;
 }
+.books{
 
+background-image: url(Pictures/book.avif);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+width: 100%;
+position: relative;
+font-size: 0.8cm;
+color: white;
+text-align: center;
+
+}
+.Reviews{
+    width: 100%;
+}
+/* .text{
+    text-decoration: none;
+
+    color: white;
+} */
 h2{
     font-size: 25px;
 }
@@ -31,7 +55,7 @@ h4{
     width: 15vw;
 }
 .text{
-    background-image: url(/Images/tn2.jpeg);
+    background-image: url(Pictures/tn2.jpeg);
     background-size: 20%;
     height: 700vh;
     background-repeat: no-repeat;
@@ -56,4 +80,158 @@ h6{
 }
 body{
     overflow-x: hidden;
+    /* overflow-y: hidden; */
+    height: auto;
+    
 }
+
+body{
+    font-family: gotham;
+    color: rgb(49, 2, 49);
+}
+ @font-face {
+    font-family: gothambold;
+    src: url(fonts/GothamPro-Bold.ttf);
+}
+@font-face {
+    font-family: gotham;
+    src: url(fonts/GothamPro.ttf);
+}
+#logo{
+    width: 3%;
+}
+.title{
+    text-align: center;
+    font-family: gotham;
+    color: rgb(49, 2, 49);
+}
+.options{
+    display:flex;
+    gap: 2%;
+    margin-left: 25%;
+}
+.options li{
+    list-style: none;
+    display: inline;
+}
+a{
+  text-decoration: none;
+  color: rgb(49, 2, 49);
+}
+.options a:hover {
+    color: rgb(193, 4, 187);
+  }
+  .options a.active {
+    color: rgb(187, 63, 183);
+  }
+ 
+
+@media screen and (max-width:350px){
+    body {
+        margin: 0;
+        width: 100%;
+        font-family: gotham;
+        padding: 0;
+        position: relative;
+        height: 100%;
+    }
+    }
+    @media screen and (min-width: 351px) and (max-width: 580px){
+        body {
+            margin: 0;
+            width: 100%;
+            padding: 0;
+            font-family: gotham;
+            position: relative;
+            height: 100%;
+            overflow-x: hidden;
+        }
+        }
+    @media screen and (min-width: 581px) and (max-width: 740px){
+        body {
+            margin: 0;
+            width: 100%;
+            padding: 0;
+            font-family: gotham;
+            position: relative;
+            height: 100%;
+        }
+        }
+    @media screen and (min-width: 741px) and (max-width: 1040px){
+        body {
+            margin: 0;
+            width: 100%;
+            padding: 0;
+            font-family: gotham;
+            position: relative;
+            height: 100%;
+        }
+        }
+    @media screen and  (min-width: 1041px) {
+        body {
+            margin: 0;
+            width: 100%;
+            padding: 0;
+            font-family: gotham;
+            position: relative;
+            height: 100%;
+        }
+        } 
+
+@media only screen and (max-width: 600px){
+
+    .Worlds{
+        font-size: 3vw;
+        margin: 0 25%;
+        width:50%;
+        }
+        
+        h2{
+            font-size: 15px;
+        }
+        
+        h3{
+            font-size: 25px;
+        }
+        
+        h4{
+            font-size: 25px;
+        }
+        
+        .Born-a-Crime{
+            margin-left: -40%;
+            margin-top: -60%;
+        }
+        
+        .worlds-apart{
+            margin-left: 70%;
+            width: 20%;
+        }
+        
+        
+        #born{
+            width: 10vw;
+        }
+        .text{
+            background-image: url(/Images1/tn2.jpeg);
+            background-size: 20%;
+            height: 700vh;
+            background-repeat: no-repeat;
+            width: 1000%;
+            position: relative;
+            left: 190%;
+            bottom: 400px;
+            text-decoration: none;
+            color: white;
+            }
+        h6{
+            font-size: 25px;
+            color: yellow;
+        }
+        #apart{
+            margin-left: 20%;
+        }
+        .books{
+            
+        }
+    } 
