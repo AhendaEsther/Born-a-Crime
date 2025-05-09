@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Group-Book-Project/fonts"
+		},
+		{
+			"path": "../Group-Book-Project/feature"
+		},
+		{
+			"path": "../Group-Book-Project/fontss"
+		},
+		{
+			"path": "../Group-Book-Project/images"
+		},
+		{
+			"path": "../Group-Book-Project/photos"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Born-a-Crime"
+	}
+}
